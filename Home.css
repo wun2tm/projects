@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: url("https://assets.nicepagecdn.com/e98f9cc9/5394736/images/BlankBGD.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -19,10 +20,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 1299px;
   }
@@ -33,6 +30,8 @@
   }
 
   .u-section-1 .u-image-2 {
+    width: 857px;
+    height: 989px;
     margin-top: -647px;
   }
 }
@@ -48,10 +47,7 @@
   }
 
   .u-section-1 .u-image-2 {
-    width: 720px;
-    height: 792px;
     margin-top: -492px;
-    margin-left: 0;
   }
 }
 
@@ -67,14 +63,15 @@
 
   .u-section-1 .u-image-2 {
     width: 540px;
-    height: 594px;
+    height: 623px;
     margin-top: -365px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 214px;
+    min-height: 773px;
   }
 
   .u-section-1 .u-image-1 {
@@ -84,7 +81,7 @@
 
   .u-section-1 .u-image-2 {
     width: 340px;
-    height: 374px;
+    height: 392px;
     margin-top: -224px;
   }
 }
