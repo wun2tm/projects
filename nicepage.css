@@ -41765,7 +41765,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 1px 0 60px auto;
+  margin: 0 auto 60px;
 }
 
 .u-header .u-nav-1 {
@@ -41780,13 +41780,19 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+    margin-right: -576px;
   }
 }
 
 
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 165px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: 16px;
+    margin-right: auto;
+    margin-bottom: 83px;
   }
 }
  .u-footer {
