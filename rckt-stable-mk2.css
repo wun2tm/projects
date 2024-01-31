@@ -44,104 +44,174 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 1353px;
+  min-height: 713px;
 }
 
 .u-section-2 .u-text-1 {
   font-weight: 400;
-  margin: 20px auto 0 23px;
+  margin: 43px auto 0 44px;
 }
 
-.u-section-2 .u-image-1 {
-  width: 479px;
-  height: 479px;
-  margin: 13px 63px 0 auto;
+.u-section-2 .u-gallery-1 {
+  height: 500px;
+  grid-gap: 17px 17px;
+  width: 1051px;
+  margin: 44px auto 60px;
 }
 
-.u-section-2 .u-image-2 {
-  width: 431px;
-  height: 453px;
-  margin: -466px auto 0 104px;
+.u-section-2 .u-gallery-inner-1 {
+  grid-template-columns: auto auto;
+  grid-gap: 17px 17px;
 }
 
-.u-section-2 .u-text-2 {
-  font-size: 1.125rem;
-  margin: 63px auto 0 90px;
+.u-section-2 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
 }
 
-.u-section-2 .u-image-3 {
-  width: 495px;
-  height: 495px;
-  margin: -51px auto 0 90px;
-}
-
-.u-section-2 .u-text-3 {
-  font-size: 1.125rem;
-  font-weight: 700;
-  margin: -313px 174px 60px 605px;
+.u-section-2 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 1116px;
+   .u-section-2 {
+    min-height: 473px;
   }
 
-  .u-section-2 .u-text-3 {
-    margin-right: 74px;
-    margin-left: 505px;
+  .u-section-2 .u-sheet-1 {
+    min-height: 534px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 73px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 446px;
+    width: 940px;
+    margin-bottom: 0;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 855px;
+   .u-section-2 {
+    min-height: 1228px;
   }
 
-  .u-section-2 .u-text-3 {
-    margin-right: 0;
-    margin-left: 359px;
+  .u-section-2 .u-sheet-1 {
+    min-height: 1497px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 1409px;
+    width: 720px;
+    margin-top: 1px;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
   }
 }
 
 @media (max-width: 767px) {
+   .u-section-2 {
+    min-height: 957px;
+  }
+
   .u-section-2 .u-sheet-1 {
-    min-height: 641px;
+    min-height: 1149px;
   }
 
-  .u-section-2 .u-image-1 {
-    margin-right: 61px;
+  .u-section-2 .u-text-1 {
+    margin-top: 79px;
   }
 
-  .u-section-2 .u-text-3 {
-    margin-left: 179px;
+  .u-section-2 .u-gallery-1 {
+    height: 1061px;
+    width: 540px;
+    margin-top: 15px;
   }
 }
 
 @media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 655px;
+  }
+
   .u-section-2 .u-sheet-1 {
-    min-height: 14px;
+    min-height: 762px;
   }
 
-  .u-section-2 .u-image-1 {
+  .u-section-2 .u-text-1 {
+    margin-top: 73px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 674px;
+    width: 340px;
+    margin-top: 30px;
+  }
+} .u-section-3 {
+  background-image: url("images/BlankBGD.png");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 1100px;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 1.125rem;
+  margin: 10px auto 0 90px;
+}
+
+.u-section-3 .u-image-1 {
+  width: 495px;
+  height: 495px;
+  margin: -51px auto 0;
+}
+
+.u-section-3 .u-text-2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  width: 361px;
+  margin: 35px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 907px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 695px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 521px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 116px;
+  }
+
+  .u-section-3 .u-image-1 {
     width: 340px;
     height: 340px;
-    margin-right: 0;
   }
 
-  .u-section-2 .u-image-2 {
+  .u-section-3 .u-text-2 {
     width: 340px;
-    height: 357px;
-    margin-top: -327px;
-    margin-left: 0;
-  }
-
-  .u-section-2 .u-image-3 {
-    width: 340px;
-    height: 340px;
-  }
-
-  .u-section-2 .u-text-3 {
-    margin-top: -158px;
-    margin-left: 0;
   }
 }
