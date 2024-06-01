@@ -51,110 +51,65 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 1262px;
-}
-
-.u-section-2 .u-text-1 {
-  font-size: 4.5rem;
-  margin: 20px 71px 0;
-}
-
-.u-section-2 .u-gallery-1 {
-  height: 570px;
-  margin-top: 21px;
-  margin-bottom: 0;
-  grid-gap: 17px 17px;
-}
-
-.u-section-2 .u-gallery-inner-1 {
-  grid-template-columns: auto auto;
-  grid-gap: 17px 17px;
-}
-
-.u-section-2 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
-}
-
-.u-section-2 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 759px;
 }
 
 .u-section-2 .u-image-1 {
-  width: 748px;
-  height: 462px;
-  margin: 42px auto 60px;
+  width: 905px;
+  height: 566px;
+  margin: 29px auto 0;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 30px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 939px;
+    min-height: 626px;
   }
 
-  .u-section-2 .u-gallery-1 {
-    height: 468px;
-  }
-
-  .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(2, auto);
+  .u-section-2 .u-image-1 {
+    margin-top: -26px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1931px;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 1477px;
-  }
-
-  .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+    min-height: 363px;
   }
 
   .u-section-2 .u-image-1 {
     width: 720px;
-    height: 445px;
+    height: 450px;
+    margin-top: -136px;
+    margin-left: 210px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1455px;
-  }
-
-  .u-section-2 .u-text-1 {
-    font-size: 3.75rem;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 1112px;
+    min-height: 251px;
   }
 
   .u-section-2 .u-image-1 {
     width: 540px;
-    height: 334px;
+    height: 338px;
+    margin-top: -404px;
+    margin-left: 300px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 925px;
-  }
-
-  .u-section-2 .u-text-1 {
-    font-size: 3rem;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 706px;
+    min-height: 126px;
   }
 
   .u-section-2 .u-image-1 {
     width: 340px;
-    height: 210px;
+    height: 213px;
+    margin-top: -504px;
+    margin-left: 400px;
   }
 } .u-section-3 {
   background-image: url("images/BlankBGD.png");
